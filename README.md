@@ -1,4 +1,7 @@
-# Digital-Body-Farm
+# Digital-Body-Farm (DBF)
+The DBF is designed to monitor how files decay after deletion. It intercepts delete system calls before file deletion, records file information, and then monitors each sector occupied by the file on disk post deletion. It contains a filesystem filter driver, a Windows service application, an SQLIte database, and a Python executable.
+
+DISCLAIMER: This program is designed for research purposes only. It has been tested on Windows 10/11 and NTFS 3.1, however, we do not provide any guarantees of its suitability to your environment. Please exercise caution as you use it. We do not accept any liabilities including loss of data or damage to systems/programs arising from its use.
 
 FILTER DRIVER INSTALLATION
 
